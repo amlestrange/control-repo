@@ -15,3 +15,15 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+
+# Linux modules
+mod 'puppetlabs/motd',:latest
+mod 'puppetlabs/stdlib',:latest
+mod 'puppetlabs/registry',:latest
+mod 'puppetlabs/translate',:latest
+mod 'puppetlabs/concat', '6.0.0'
+
+# Windows modules
+mod 'puppetlabs/pwshlib',:latest
+mod 'puppetlabs/powershell',:latest
+mod 'puppetlabs-chocolatey','5.0.2'
